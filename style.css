@@ -32,7 +32,6 @@ header {
     width: 100%;
     max-width: 100%;
     padding: 10px 5%;
-    border: 1px solid #fff;
 }
 
 header img {
@@ -74,13 +73,10 @@ header .nav-bar li a {
     list-style-type: none;
     position: absolute;
     top: 72px;
-    right: 5%;
-    width: 90%;
-    width: 350px;
-    border-color: transparent #fff;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
     background: #0062be;
-    border-width: 1px;
-    border-style: solid;
     max-height: 0;
     overflow: hidden;
 
@@ -275,9 +271,15 @@ header .nav-bar li a {
         display: flex;
     }
 
+    .menu-bar {
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+    }
+
     .menu-bar.active {
         background: url(images/close.png);
-        background-size: 30px;
+       background-size: 20px;
         background-repeat: no-repeat;
         filter: invert(0);
     }
@@ -296,12 +298,6 @@ header .nav-bar li a {
     header img {
         width: 30px;
         height: 30px;
-    }
-
-    .menu-bar {
-        width: 25px;
-        height: 20px;
-        background-size: 25px;
     }
 
     .main-content .text-box h1 {
