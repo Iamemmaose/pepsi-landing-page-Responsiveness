@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Landing-page repsonsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="images/logo (1).png">
+</head>
+
+<body>
+
+    <section id="sec">
+        <header>
+            <img src="images/logo (1).png" alt="Pepsi-logo">
+
+            <ul class="nav-bar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Products</anavigation>
+                </li>
+                <li><a href="#">What's new</a> </li>
+                <li><a href="#">Newsletter</a> </li>
+                <li><a href="#">Contact</a> </li>
+            </ul>
+
+            <div class="menu-bar" onclick="menubarClick()"></div>
+
+            <ul id="nav">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Products</anavigation>
+                </li>
+                <li><a href="#">What's new</a> </li>
+                <li><a href="#">Newsletter</a> </li>
+                <li><a href="#">Contact</a> </li>
+            </ul>
+
+        </header>
+
+        <div class="main-content" id="main">
+            <div class="text-box">
+                <h1>That's what<br><span>I like</span></h1>
+                <p>Pepsi is a globally recognized beverage brand known for its refreshing taste and iconic identity.
+                    Crafted with a bold cola flavor and satisfying fizz, Pepsi is enjoyed by millions of consumers
+                    around the world. As a brand rooted in innovation and culture, Pepsi continues to deliver quality
+                    refreshment while connecting people across everyday moments, meals, and celebrations.</p>
+                <a href="#">view all products</a>
+            </div>
+            <div class="imgbox">
+                <img class="pepsi" src="images/pepsi001 (1).png" alt="Pepsi-drink">
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="#"><img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="#"><img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="#"><img src="images/twitter.png" alt="twitter">
+            </a>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="images/pepsi001 (1).png" alt="pepsi-drink" onclick="imageSlider('images/pepsi001 (1).png'); changebgcolor('#0062be')" > </li>
+            <li><img src="images/pepsi002 (1).png" alt="pepsi-drink" onclick="imageSlider('images/pepsi002 (1).png'); changebgcolor('#e60c2c ')"> </li>
+            <li><img src="images/pepsi003 (1).png" alt="pepsi-drink" onclick="imageSlider('images/pepsi003 (1).png'); changebgcolor('#1e1e1e')"> </li>
+        </div>
+    </section>
+     <script src="script.js"></script>
+</body>
+
+</html>
