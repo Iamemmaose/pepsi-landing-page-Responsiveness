@@ -41,10 +41,11 @@ Keeping design clean while maintaining responsiveness
 
 Deployment:
 This project is deployed using GitHub Pages.
-Push code to GitHub repository
-Go to Settings → Pages
-Select branch master
-Save and deploy
+
+1. Push code to GitHub repository
+2. Go to Settings → Pages
+3. Select branch master
+4. Save and deploy
 
 Author
 Emma Ose
