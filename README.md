@@ -1,97 +1,51 @@
-Pepsi Responsive Landing Page
+Pepsi Landing Page (Responsive)
 
-A responsive Pepsi landing page built using HTML, CSS, and JavaScript.
-This project focuses on layout design, responsiveness, and basic interactivity.
+Live Demo: https://iamemmaose.github.io/pepsi-landing-page-Responsiveness/
 
-Project Overview
+Overview:
+This project is a fully responsive Pepsi landing page designed to deliver a modern and engaging user experience across all devices.
+It focuses on combining clean UI, smooth layout, and brand-focused design to replicate a real-world product landing page.
+Responsive landing pages automatically adjust to different screen sizes using flexible layouts and media queries, ensuring usability on mobile, tablet, and desktop .
 
-This landing page is inspired by the Pepsi brand and demonstrates:
+Features:
+* Fully responsive design (Mobile, Tablet, Desktop)
+* Clean and modern Pepsi-inspired UI
+* Smooth layout and structured sections
+* Easy navigation
+* High-quality visuals and branding
+* Call-to-action elements
+  
+Tech Stack:
+HTML5 – Structure
+CSS3 – Styling & responsiveness
+JavaScript – Interactivity 
 
-A modern responsive layout
+Project Structure:
+pepsi-landing-page
+ ┣  index.html
+ ┣  style.css
+ ┣  script.js 
+ ┗  images
+ 
+What I Learned:
+Building responsive layouts using media queries
+Applying mobile-first design principles
+Structuring a real-world product landing page
+Improving UI/UX with spacing, colors, and hierarchy
+Debugging responsiveness issues across screen sizes
 
-Mobile-friendly navigation
+Challenges:
+Making the layout look consistent across all devices
+Handling spacing and alignment for smaller screens
+Keeping design clean while maintaining responsiveness
 
-JavaScript-based UI interactions
+Deployment:
+This project is deployed using GitHub Pages.
+Push code to GitHub repository
+Go to Settings → Pages
+Select branch master
+Save and deploy
 
-The page dynamically updates the product image and background color based on user interaction.
-
-Features
-
-Fully responsive design for desktop, tablet, and mobile
-
-Navigation bar with mobile menu toggle
-
-Dynamic product image switching
-
-Background color changes on product selection
-
-Social media link section
-
-Google Fonts integration (Poppins)
-
-Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla)
-
-Google Fonts
-
-Project Structure
-Pepsi-Landing-Page/
-│
-├── index.html        Main HTML file
-├── style.css         Stylesheet
-├── script.js         JavaScript functionality
-├── images/           Image assets
-└── README.md         Project documentation
-
-JavaScript Functionality
-
-imageSlider(imagePath)
-Updates the displayed Pepsi product image.
-
-changebgcolor(color)
-Changes the background color of the main section and mobile navigation.
-
-menubarClick()
-Toggles the mobile navigation menu and hides the main content when active.
-
-Responsive Behavior
-
-Desktop: Full navigation menu visible
-
-Tablet: Adjusted layout and image sizes
-
-Mobile:
-
-Hamburger menu enabled
-
-Navigation expands vertically
-
-Main content hides when menu is active
-
-How to Run the Project
-
-Download or clone the repository
-
-Open index.html in any modern web browser
-
-No additional setup is required
-
-Learning Outcomes
-
-Responsive layout using Flexbox and media queries
-
-DOM manipulation with JavaScript
-
-Building mobile-first navigation
-
-Structuring a landing page UI
-
-License
-
-This project is created for educational purposes only.
-All brand assets belong to PepsiCo.
+Author
+Emma Ose
+Frontend Developer
